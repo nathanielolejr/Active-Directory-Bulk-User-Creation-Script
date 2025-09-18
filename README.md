@@ -16,3 +16,8 @@ This PowerShell script automates the creation of multiple Active Directory (AD) 
 SamAccountName,FirstName,LastName,DisplayName,Email,Password,OU,Manager,JobLevel,Department,Office,Title,Company,Description,Initials,AccountExpires
 jdoe,John,Doe,John Doe,jdoe@domain.com,P@ssword123,"OU=Users,DC=domain,DC=com",manager1,Associate,IT,HeadOffice,Technician,Contoso,Support,J,D2025-12-31
 asmith,Alice,Smith,Alice Smith,asmith@domain.com,P@ssword123,"OU=Users,DC=domain,DC=com",manager2,Manager,Finance,BranchOffice,Manager,Contoso,Finance,A,D2026-01-01
+
+## Example Usage
+- Update the $CSVPath with the path to your CSV file.
+- Replace the placeholder group names in the switch block with your real AD groups.
+- Run the script in a PowerShell session with ActiveDirectory module installed.
